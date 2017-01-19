@@ -1,0 +1,51 @@
+#basediv{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 2em;
+	font-weight: bold;
+	color: #666;
+	border: 1px solid #dfdfdf;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+}
+
+#colordiv{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #aaa;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+}
+
+#chart-area{
+	margin: 0 auto;
+}
+
+.radius{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.circle {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.floatwrapper:after{
+    display:block;
+    clear: both;
+}
+
+#colorbox{
+	position: relative;
+}
+
+input{
+	max-width: 250px;
+}
